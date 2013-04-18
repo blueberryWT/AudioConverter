@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B83269A6F6C7949B47C5C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B83FA1ECF66BFF1868D150 /* Foundation.framework */; };
+		58B832A136B556A5B0AD7D0F /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B834734E1DCEBA0A90C79A /* libopencore-amrwb.a */; };
+		58B832E76F84FF6768AD033B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B839F614209D1180BFE0EB /* Default@2x.png */; };
+		58B8337239FB3071E45BB5A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83729EE6D3AC8F85988CE /* ViewController.m */; };
+		58B83382A713E70C602B6861 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B83FD20715583A7C0C12DA /* AVFoundation.framework */; };
+		58B833AB5B5ACD45E4A0EDB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B830AA2E931F8D3CC790B5 /* UIKit.framework */; };
+		58B83448B40D21A9FDB74AAF /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B833B5A360EB861EF8F826 /* amrFileCodec.m */; };
+		58B8347D625E0EBEE0338A52 /* PlayAMR.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B833393EC2AB076B7E2CD0 /* PlayAMR.m */; };
+		58B834E911D1F662F7337862 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8319B5F19EBC5D895671F /* Default-568h@2x.png */; };
+		58B8368B80D30026640DD43E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B839620C91FD697A9CDDF2 /* main.m */; };
+		58B836E17DA558B1183E7C57 /* RecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8350F9E96C56F3B3E422A /* RecorderManager.m */; };
+		58B837CB7AA09E9E8884105C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B83506A8927A691A0B6C15 /* InfoPlist.strings */; };
+		58B83806F586F8A2C435659F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B834B9D08D2EFD05325660 /* AppDelegate.m */; };
+		58B838507DCF59CFAFBB67A8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B836CF875E83BA1F60A15C /* SecondViewController.m */; };
+		58B838A6ABD4C9B5BF4E14AD /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B83AC6025AE2EF78BC9BAF /* libopencore-amrnb.a */; };
+		58B839BE3F397B8EE69F4FF4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B8338FFE4BFB4D2649FBF7 /* ViewController.xib */; };
+		58B83B68DA9EDF32CD830769 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B83C83923C9D1E83593CC6 /* AudioToolbox.framework */; };
+		58B83CC8396BAC6DAE9C395C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83D4E686D28904A311A4F /* Default.png */; };
+		58B83D590ACC1475EB348A1F /* RecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B830A9608961BF66FCA07A /* RecordAudio.m */; };
+		58B83E56492B8A46B469A46E /* healTheWorld.amr in Resources */ = {isa = PBXBuildFile; fileRef = 58B83BF74BDC6DCAE4B24295 /* healTheWorld.amr */; };
+		58B83F079BD78C9D0C29DFAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B83605917BCFD43BC3584F /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B83096826EC91A8ECB88E3 /* AudioConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B830A9608961BF66FCA07A /* RecordAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudio.m; sourceTree = "<group>"; };
+		58B830AA2E931F8D3CC790B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58B8319B5F19EBC5D895671F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58B831C46E96D9CA22163425 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		58B831E5BAD89A1FDC9373A3 /* AudioConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AudioConverter-Info.plist"; sourceTree = "<group>"; };
+		58B832292C78AB1F6197B9B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58B832D4D14EA5C1316299E1 /* RecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderManager.h; sourceTree = "<group>"; };
+		58B832E61409A5853D536374 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		58B833393EC2AB076B7E2CD0 /* PlayAMR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAMR.m; sourceTree = "<group>"; };
+		58B833B5A360EB861EF8F826 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		58B8346F5FD02ABA091D05EE /* PlayAMR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAMR.h; sourceTree = "<group>"; };
+		58B834734E1DCEBA0A90C79A /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		58B834B9D08D2EFD05325660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58B8350F9E96C56F3B3E422A /* RecorderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderManager.m; sourceTree = "<group>"; };
+		58B83605917BCFD43BC3584F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58B836CF875E83BA1F60A15C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		58B83729EE6D3AC8F85988CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58B839620C91FD697A9CDDF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B839F614209D1180BFE0EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		58B83A3572BF33E8637FA072 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		58B83AC4F978A0628D9C3294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58B83AC6025AE2EF78BC9BAF /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		58B83B3000F8F4D749E94296 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		58B83B81E1EAA6461625EA1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		58B83BF74BDC6DCAE4B24295 /* healTheWorld.amr */ = {isa = PBXFileReference; lastKnownFileType = file.amr; path = healTheWorld.amr; sourceTree = "<group>"; };
+		58B83C35A636B2077C426AF2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		58B83C83923C9D1E83593CC6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		58B83CCBF3DF7CFD2916BB8E /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		58B83CCCF466BBC172FA5418 /* RecordAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudio.h; sourceTree = "<group>"; };
+		58B83D4E686D28904A311A4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		58B83E2D8BA968F444D9DE69 /* AudioConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioConverter-Prefix.pch"; sourceTree = "<group>"; };
+		58B83FA1ECF66BFF1868D150 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58B83FD20715583A7C0C12DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		58B83FEC6C39187305B8D0DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B83FBB4F94F37E959ADE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B833AB5B5ACD45E4A0EDB4 /* UIKit.framework in Frameworks */,
+				58B83269A6F6C7949B47C5C3 /* Foundation.framework in Frameworks */,
+				58B83F079BD78C9D0C29DFAB /* CoreGraphics.framework in Frameworks */,
+				58B838A6ABD4C9B5BF4E14AD /* libopencore-amrnb.a in Frameworks */,
+				58B832A136B556A5B0AD7D0F /* libopencore-amrwb.a in Frameworks */,
+				58B83B68DA9EDF32CD830769 /* AudioToolbox.framework in Frameworks */,
+				58B83382A713E70C602B6861 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B830E35AD01D116F46643E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B830AA2E931F8D3CC790B5 /* UIKit.framework */,
+				58B83FA1ECF66BFF1868D150 /* Foundation.framework */,
+				58B83605917BCFD43BC3584F /* CoreGraphics.framework */,
+				58B83C83923C9D1E83593CC6 /* AudioToolbox.framework */,
+				58B83FD20715583A7C0C12DA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B8333D8D81F91701A0EAEC /* RecorderManager */ = {
+			isa = PBXGroup;
+			children = (
+				58B832D4D14EA5C1316299E1 /* RecorderManager.h */,
+				58B8350F9E96C56F3B3E422A /* RecorderManager.m */,
+			);
+			path = RecorderManager;
+			sourceTree = "<group>";
+		};
+		58B8334693FE556F87EC226E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B83096826EC91A8ECB88E3 /* AudioConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B8335DE13A5318CEA0FE83 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				58B83D891CBDFF446CF3F2D1 /* opencore-amrnb */,
+				58B835285B4006FC3F3A536D /* opencore-amrwb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		58B833904B36A80D492001EB /* PlayAMR */ = {
+			isa = PBXGroup;
+			children = (
+				58B8346F5FD02ABA091D05EE /* PlayAMR.h */,
+				58B833393EC2AB076B7E2CD0 /* PlayAMR.m */,
+			);
+			path = PlayAMR;
+			sourceTree = "<group>";
+		};
+		58B835285B4006FC3F3A536D /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				58B83B3000F8F4D749E94296 /* dec_if.h */,
+				58B83CCBF3DF7CFD2916BB8E /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		58B83AE5F701CC00A87ABEE6 /* AudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				58B83F900BB6C058C1BE94B4 /* Supporting Files */,
+				58B83FEC6C39187305B8D0DD /* AppDelegate.h */,
+				58B834B9D08D2EFD05325660 /* AppDelegate.m */,
+				58B832292C78AB1F6197B9B7 /* ViewController.h */,
+				58B83729EE6D3AC8F85988CE /* ViewController.m */,
+				58B8338FFE4BFB4D2649FBF7 /* ViewController.xib */,
+				58B83D7C3C337B5E158BB981 /* DPRecorder */,
+				58B836CF875E83BA1F60A15C /* SecondViewController.m */,
+				58B83C35A636B2077C426AF2 /* SecondViewController.h */,
+				58B83BF74BDC6DCAE4B24295 /* healTheWorld.amr */,
+			);
+			path = AudioConverter;
+			sourceTree = "<group>";
+		};
+		58B83D7C3C337B5E158BB981 /* DPRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				58B8335DE13A5318CEA0FE83 /* include */,
+				58B833904B36A80D492001EB /* PlayAMR */,
+				58B83CCCF466BBC172FA5418 /* RecordAudio.h */,
+				58B830A9608961BF66FCA07A /* RecordAudio.m */,
+				58B831C46E96D9CA22163425 /* amrFileCodec.h */,
+				58B833B5A360EB861EF8F826 /* amrFileCodec.m */,
+				58B8333D8D81F91701A0EAEC /* RecorderManager */,
+				58B83AC6025AE2EF78BC9BAF /* libopencore-amrnb.a */,
+				58B834734E1DCEBA0A90C79A /* libopencore-amrwb.a */,
+			);
+			path = DPRecorder;
+			sourceTree = "<group>";
+		};
+		58B83D891CBDFF446CF3F2D1 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				58B832E61409A5853D536374 /* interf_dec.h */,
+				58B83A3572BF33E8637FA072 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		58B83F209CDF8C456086C7D5 = {
+			isa = PBXGroup;
+			children = (
+				58B8334693FE556F87EC226E /* Products */,
+				58B830E35AD01D116F46643E /* Frameworks */,
+				58B83AE5F701CC00A87ABEE6 /* AudioConverter */,
+			);
+			sourceTree = "<group>";
+		};
+		58B83F900BB6C058C1BE94B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B831E5BAD89A1FDC9373A3 /* AudioConverter-Info.plist */,
+				58B83506A8927A691A0B6C15 /* InfoPlist.strings */,
+				58B839620C91FD697A9CDDF2 /* main.m */,
+				58B83E2D8BA968F444D9DE69 /* AudioConverter-Prefix.pch */,
+				58B83D4E686D28904A311A4F /* Default.png */,
+				58B839F614209D1180BFE0EB /* Default@2x.png */,
+				58B8319B5F19EBC5D895671F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B8329C8B18C96EF3660FC4 /* AudioConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B834A3E4614DD4EDB7095E /* Build configuration list for PBXNativeTarget "AudioConverter" */;
+			buildPhases = (
+				58B83CFE61774CEE9B45DEE8 /* Sources */,
+				58B83FBB4F94F37E959ADE03 /* Frameworks */,
+				58B83FF3671622892A4B3816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioConverter;
+			productName = AudioConverter;
+			productReference = 58B83096826EC91A8ECB88E3 /* AudioConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B839699CD4BF412E764D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 58B836D29163C68B2E4CFDC3 /* Build configuration list for PBXProject "AudioConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B83F209CDF8C456086C7D5;
+			productRefGroup = 58B8334693FE556F87EC226E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B8329C8B18C96EF3660FC4 /* AudioConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B83FF3671622892A4B3816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B837CB7AA09E9E8884105C /* InfoPlist.strings in Resources */,
+				58B83CC8396BAC6DAE9C395C /* Default.png in Resources */,
+				58B832E76F84FF6768AD033B /* Default@2x.png in Resources */,
+				58B834E911D1F662F7337862 /* Default-568h@2x.png in Resources */,
+				58B839BE3F397B8EE69F4FF4 /* ViewController.xib in Resources */,
+				58B83E56492B8A46B469A46E /* healTheWorld.amr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B83CFE61774CEE9B45DEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B8368B80D30026640DD43E /* main.m in Sources */,
+				58B83806F586F8A2C435659F /* AppDelegate.m in Sources */,
+				58B8337239FB3071E45BB5A2 /* ViewController.m in Sources */,
+				58B8347D625E0EBEE0338A52 /* PlayAMR.m in Sources */,
+				58B83D590ACC1475EB348A1F /* RecordAudio.m in Sources */,
+				58B83448B40D21A9FDB74AAF /* amrFileCodec.m in Sources */,
+				58B836E17DA558B1183E7C57 /* RecorderManager.m in Sources */,
+				58B838507DCF59CFAFBB67A8 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B8338FFE4BFB4D2649FBF7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B83B81E1EAA6461625EA1B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		58B83506A8927A691A0B6C15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B83AC4F978A0628D9C3294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B8331FF3689D2CF427E825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B83ACBC2339584E3154457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioConverter/AudioConverter-Prefix.pch";
+				INFOPLIST_FILE = "AudioConverter/AudioConverter-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/AudioConverter/DPRecorder\"/**",
+					"\"${PROJECT_DIR}/AudioConverter/DPRecorder\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58B83B7DE255A743077A1945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioConverter/AudioConverter-Prefix.pch";
+				INFOPLIST_FILE = "AudioConverter/AudioConverter-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/AudioConverter/DPRecorder\"/**",
+					"\"${PROJECT_DIR}/AudioConverter/DPRecorder\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58B83CCC8CF0AAD86CD6CAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B834A3E4614DD4EDB7095E /* Build configuration list for PBXNativeTarget "AudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B83ACBC2339584E3154457 /* Release */,
+				58B83B7DE255A743077A1945 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58B836D29163C68B2E4CFDC3 /* Build configuration list for PBXProject "AudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B8331FF3689D2CF427E825 /* Release */,
+				58B83CCC8CF0AAD86CD6CAB4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B839699CD4BF412E764D44 /* Project object */;
+}

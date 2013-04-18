@@ -1,0 +1,39 @@
+//
+// Created by apple on 13-2-21.
+//
+// To change the template use AppCode | Preferences | File Templates.
+//
+
+
+#import "DPVoiceDownloadController.h"
+#import "RecorderManager.h"
+#import "MessageMediaDefinition.h"
+
+
+@implementation DPVoiceDownloadController
+
+
+
+DEF_MESSAGE(DOWNLOAD_VOICE_MESSAGE)
+
+- (void)DOWNLOAD_VOICE_MESSAGE :(BeeMessage *)msg {
+    if (msg.sending) {
+        [msg setToldProgress:YES];
+        [msg.request setShowAccurateProgress:YES];
+        NSString *path = msg.input[kMessage_PARAMS];
+        [msg GET:path];
+    }else if (msg.succeed) {
+        NSData *voiceData = msg.response;
+        if (voiceData) {
+            [[RecorderManager sharedInstance] saveVoiceFileToLocation:voiceData forKey:msg.input[kMessage_PARAMS]];
+        }
+        BeeCC(@"success");
+    }else if (msg.failed) {
+        BeeCC(@"fail");
+    }else if (msg.cancelled) {
+        BeeCC(@"cancel");
+    }else if (msg.progressed) {
+        BeeCC(@"progress = %f", msg.downloadProgress);
+    }
+}
+@end
