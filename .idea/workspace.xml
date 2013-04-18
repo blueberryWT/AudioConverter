@@ -35,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RecorderManager.h" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RecorderManager.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AudioConverter/DPRecorder/RecorderManager/RecorderManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="55" selection-start="874" selection-end="874" vertical-scroll-proportion="0.4650456">
+            <state line="59" column="33" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecorderManager.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RecorderManager.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AudioConverter/DPRecorder/RecorderManager/RecorderManager.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="12" selection-start="4449" selection-end="4449" vertical-scroll-proportion="0.0">
+            <state line="207" column="35" selection-start="5282" selection-end="5420" vertical-scroll-proportion="-4.963526">
               <folding />
             </state>
           </provider>
@@ -240,6 +240,28 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AudioConverter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AudioConverter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPRecorder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecorderManager" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="DirectoryView.Xcode" />
@@ -404,13 +426,6 @@
         <state line="98" column="10" selection-start="4401" selection-end="4401" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AudioConverter/DPRecorder/RecorderManager/RecorderManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="12" selection-start="4449" selection-end="4449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AudioConverter/SecondViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="4" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
@@ -469,7 +484,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AudioConverter/DPRecorder/RecorderManager/RecorderManager.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="55" selection-start="874" selection-end="874" vertical-scroll-proportion="0.4650456">
+        <state line="59" column="33" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioConverter/DPRecorder/RecorderManager/RecorderManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="35" selection-start="5282" selection-end="5420" vertical-scroll-proportion="-4.963526">
           <folding />
         </state>
       </provider>
